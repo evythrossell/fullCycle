@@ -3,7 +3,7 @@ package db
 import (
 	"database/sql"
 
-	"github.com/EvyOliveira/fullCycle/application"
+	"github.com/EvyOliveira/fullCycle/application/entity"
 	_ "github.com/mattn/go-sqlite3"
 )
 

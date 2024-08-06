@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/EvyOliveira/fullCycle/adapters/db"
-	"github.com/EvyOliveira/fullCycle/application"
+	"github.com/EvyOliveira/fullCycle/application/entity"
 	"github.com/stretchr/testify/require"
 )
 

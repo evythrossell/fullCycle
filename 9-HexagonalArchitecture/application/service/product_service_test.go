@@ -3,8 +3,8 @@ package application_test
 import (
 	"testing"
 
-	"github.com/EvyOliveira/fullCycle/application"
 	mock_application "github.com/EvyOliveira/fullCycle/application/mocks"
+	application "github.com/EvyOliveira/fullCycle/application/service"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 )

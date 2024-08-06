@@ -3,7 +3,7 @@ package application_test
 import (
 	"testing"
 
-	"github.com/EvyOliveira/fullCycle/application"
+	application "github.com/EvyOliveira/fullCycle/application/entity"
 	uuid "github.com/satori/go.uuid"
 	"github.com/stretchr/testify/require"
 )

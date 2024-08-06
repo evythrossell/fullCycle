@@ -3,7 +3,7 @@ package cli
 import (
 	"fmt"
 
-	"github.com/EvyOliveira/fullCycle/application"
+	"github.com/EvyOliveira/fullCycle/application/entity"
 )
 
 func Run(service application.ProductServiceInterface, action string, productId string, productName string, price float64) (string, error) {

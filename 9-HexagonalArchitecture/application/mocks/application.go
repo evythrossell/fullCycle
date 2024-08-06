@@ -7,7 +7,7 @@ package mock_application
 import (
 	reflect "reflect"
 
-	application "github.com/EvyOliveira/fullCycle/application"
+	application "github.com/EvyOliveira/fullCycle/application/entity"
 	gomock "github.com/golang/mock/gomock"
 )
 
