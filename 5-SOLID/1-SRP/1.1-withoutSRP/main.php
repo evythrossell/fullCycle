@@ -40,7 +40,7 @@ class Course
 
     public function setCategory($category)
     {
-        return $this->category = $category
+        $this->category = $category
         return $this;
     }
 }
