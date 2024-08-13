@@ -1,7 +1,6 @@
 services:
-  app:
+  appproduct:
     build: .
-    container_name: appproduct
     ports:
       - "9000:9000"
     volumes:
