@@ -6,5 +6,4 @@ resource "local_file" "exemplo" {
 
 variable "content" {
     type = string
-    default = "Hello, World!"
 }
