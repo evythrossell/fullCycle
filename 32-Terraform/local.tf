@@ -4,4 +4,7 @@ resource "local_file" "exemplo" {
     content = var.content
 }
 
-variable "content" {}
+variable "content" {
+    type = string
+    default = "Hello, World!"
+}
