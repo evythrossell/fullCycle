@@ -1,1 +1,0 @@
-content = "came from the VSC environment"
