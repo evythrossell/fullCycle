@@ -4,6 +4,14 @@ resource "local_file" "exemplo" {
     content = var.content
 }
 
+data "local_file" "content-sample" {
+    filename = "exemplo.txt"
+}
+
+output "data-source-result" {
+    value = data.local_file.content-sample.content_base64
+}
+
 variable "content" {
     type = string
 }
